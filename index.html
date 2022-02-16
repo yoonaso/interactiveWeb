@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코로나 국내 발생 2년 끝나지 않는 굴레</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@500;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="stylesheet" href="./css/jquery-glitch.css">
+    <link rel="stylesheet" href="./css/leaflet.css">
+    <script src="./js/leaflet.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/pc.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="./js/chartjs-plugin-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.1/dist/svgMap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.1/dist/svgMap.min.css" rel="stylesheet">
+    <script src="./js/jquery-glitch.js"></script>
+
+
+
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headBg">
+            <div class="headWrap clearfix">
+                <div class="logo cell">
+                    <a class="logoImg bgSize" href="#"></a>
+                </div>
+
+                <div class="iconBox cellR">
+                    <div class="shareBox">
+                        <a href="#" class="bgSize shareImg"></a>
+                    </div>
+                    <div class="commentBox">
+                        <a href="#" class="bgSize commentImg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="parallax">
+        <section class="section1">
+            <div class="mainBg bgSize">
+                <div class="glitch center">
+                    <h3>코로나19 국내 발생 2년,<br />
+                        <span>끝나지 않는 굴레</span>
+                    </h3>
+                </div>
+
+                <div class="scroll">
+                    <div class="scImg bgSize"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+      
+            <div id="map">
+
+            </div>
+            <div class="dark"></div>
+
+
+            <article class="textBox anima">
+                <div class="txtBoxSize">
+                    <h3>2020년 1월 18일</h3><br />
+                    <p>중국 후베이성 우한에 사는 A 씨(35)는 출국을 하루 앞두고 발열 오한 등 감기<br /> 증상이 나타났다.
+                        시내 병원에서 진료를 받고 감기약을 처방받았다.
+                    </p>
+                </div>
+            </article>
+
+            <article class="textBoxTwo animaTwo">
+                <div class="txtBoxSize">
+                    <h3>1월 19일 오전</h3><br />
+                    <p>A 씨는 우한 공항에서 한국 인천으로 가는 비행기를 탔다.
+                        가족 2명, 친구 가족 3명 등<br /> 5명이 동행했다.
+                        일본 여행을 가기 위해 인천에서 환승하는 일정이었다.
+                    </p>
+
+                </div>
+            </article>
+
+            <article class="textBoxThree animaThree">
+                <div class="txtBoxSize">
+                    <h3>1월 19일 오후 12시 25분</h3><br />
+                    <p>
+                        비행기에서 내린 A 씨가 인천공항 탑승동 게이트로 향했다.
+                        체온을 쟀는데 38.0도<br />가 나왔다. 여기에 발열, 오한, 근육통, 콧물 증상이 있었다.
+                        검역당국의 판단에<br /> 따라 A 씨는 임시격리실로 이동했다.
+                    </p>
+
+                </div>
+            </article>
+
+            <article class="textBoxfour animafour">
+                <div class="txtBoxSize">
+                    <h3>1월 19일 오후 3시경</h3><br />
+                    <p>
+                        A 씨는 검역관과 임시격리실을 나와 공항 1층으로 나갔다. 건물 앞에 대기 중이던<br />
+                        구급차로 인천의료원에 이송됐다. 1월 20일 오전 8시, A 씨는 코로나19 확진 판정을<br />
+                        받았다. A 씨는 국내에서 확인된 첫 코로나19 환자였다.
+                    </p>
+
+
+
+                </div>
+            </article>
+        </section>
+
+        <section class="section3">
+            <article>
+                <div class="globalText">
+                
+                    <h3 class="twoYears serif">
+                        첫 코로나19 확진자 발생 후 2년이 흘렀다.
+                    </h3>
+
+                    <p class="notYet serif">
+                        코로나19는 여전히 종식되지 않았다.
+                    </p>
+
+
+                </div>
+
+                <div class="sectionThreeMain">
+
+                    <div class="globalMap">
+
+                        <div id="svgMap"></div>
+                        <div class="mapExBox">
+                            <p>국가별 100만 명 당 확진자 수(미국, 캐나다, 브라질, 영국, 독일, 이스라엘, 러시아, 남아프리카공화국, 인도, 대한민국, 일본 / 통계
+                                https://ourworldindata.org/)</p>
+                        </div>
+                    </div>
+                    <p class="mainText">
+                        <br />
+                        코로나 접종 완료율이 85%에 이르고 치료제까지 나왔지만 코로나는 끝날 기미가 없다.
+                        <br />오히려 델타보다 전파력이 3배 강한 오미크론 변이가 출현해 세계적으로 5차 대유행을 일으키고 있다.
+                    </p>
+                </div>
+            </article>
+
+            <article class="section4">
+             
+                <div class="myChartDiv" style="width:70vw; height:30vh; margin:5rem auto">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="chartEx">
+                    <h3>지난 한달 간 국내 코로나 확진자 추이 (http://ncov.mohw.go.kr/)</h3>
+                </div>
+
+                <div class="newCorona">
+                    <p>
+                        국내도 오미크론 영향권에 들면서 한동안 진정세를 보이던 확진자가 증가세로 돌아섰다.<br />
+                        2월 4일 0시 기준 일일 신규 확진자는 2만7443명이다.
+                    </p>
+                </div>
+
+                <div class="confirmedCase">
+                    <p class="serif confirmOne">이날까지 누적 확진자는 93만4656명이다.</p>
+
+                </div>
+
+                <div class="confirmedCaseTwo">
+                    <p class="serif confirmOne">이날까지 누적 확진자는 93만4656명이다.</p>
+
+                </div>
+
+                <div class="confirmedCaseThree">
+                    <p class="serif confirmOne">이날까지 누적 확진자는 93만4656명이다.</p>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+     
+     
+    </main>
+
+    <div class="section5">
+      <div class="processWrap">
+          <div class="process">
+              <div class="processItem">
+                  <div class="prBg bgSize"></div>
+
+                  <div class="roadBox">
+                      <div class="prRoad bgSize"></div>
+                      <div class="prRoad bgSize"></div>
+                  </div>
+              </div>
+
+              <div class="processItem">
+                <div class="prBg bgSize"></div>
+
+                <div class="roadBox">
+                    <div class="prRoad bgSize"></div>
+                    <div class="prRoad bgSize"></div>
+                </div>
+
+                <div class="House bgSize"></div>
+
+                <div class="prTxt">
+                    <h3>집</h3>
+                    <p>외출하고 집에 돌아온 뒤에는 손을 씻어야 한다. 흐르<br/>
+                        는 물에 비누로 30초 이상 손을 씻는 것이 좋다. 동거인<br/>
+                        이 감기 증상을 보일 경우 식사를 따로 하고, 수건 등을<br/>
+                        같이 쓰지 않는 것이 좋다. </p>
+                </div>
+            </div>
+
+            <div class="processItem">
+                <div class="prBg bgSize"></div>
+
+                <div class="roadBox">
+                    <div class="prRoad bgSize"></div>
+                    <div class="prRoad bgSize"></div>
+                </div>
+
+                <div class="bus bgSize"></div>
+
+                <div class="prTxt2">
+                    <h3>대중교통</h3>
+                    <p>대중교통이 붐비는 출퇴근 시간은 피하고, 가까운 거리<br/>
+                        를 이동할 경우 걷는 것도 좋다. 대중교통을 이용한 뒤<br/>
+                        에는 손소독제를 사용하면 좋다.</p>
+                </div>
+            </div>
+
+            <div class="processItem">
+                <div class="prBg bgSize"></div>
+
+                <div class="roadBox">
+                    <div class="prRoad bgSize"></div>
+                    <div class="prRoad bgSize"></div>
+                </div>
+
+                <div class="school bgSize"></div>
+
+                <div class="prTxt3">
+                    <h3>학교</h3>
+                    <p>등교 전 건강상태를 확인한다. 발열 등 코로나19 의심<br/>
+                        증상이 있을 경우 등교하지 않는다. 교실에서는 상시<br/>
+                        마스크를 착용한다. 또한 교실을 수시로 환기하는 것이<br/>
+                        중요하다. </p>
+                </div>
+            </div>
+
+            <div class="processItem">
+                <div class="prBg bgSize"></div>
+
+                <div class="roadBox">
+                    <div class="prRoad bgSize"></div>
+                    <div class="prRoad bgSize"></div>
+                </div>
+            </div>
+
+          </div>
+      </div>
+         
+      <div class="footerSpace">
+        <div class="publish">
+            <p>발간일 2022년 2월 16일</p>
+        </div>
+
+        <div class="personInfo">
+            <div class="ulWrap">
+            <ul>
+                <li>기사 취재</li>
+                <li>|</li>
+                <li>O O O</li>
+                <li>O O O</li>
+                <li>O O O 기자</li>
+            </ul>
+
+            <ul>
+                <li>사진 취재</li>
+                <li>|</li>
+                <li>O O O 기자</li>
+                
+            </ul>
+
+            <ul>
+                <li>그래픽</li>
+                <li>|</li>
+                <li>O O O 기자</li>
+            </ul>
+
+            <ul>
+                <li>프로젝트 기획</li>
+                <li>|</li>
+                <li>O O O</li>
+                <li>O O O</li>
+                <li>기자</li>
+            </ul>
+
+            <ul>
+                <li>사이트 제작</li>
+                <li>|</li>
+                <li>디자인 O O O,</li>
+                <li>퍼블리싱 O O O,</li>
+                <li>개발 O O O</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="copyright">
+           <p>copyright by <span>yunaso</span> All rights reserved</p>
+        </div>
+    </div>
+    </div>
+
+    <!--map script-->
+    <script>
+        //map start
+        var map = L.map('map').setView([30.597826116640846, 114.30383824938], 5);
+
+        L.tileLayer(
+            'https://api.mapbox.com/styles/v1/donsasasa/ckzjqwco7001z15qk04qeyuwa/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uc2FzYXNhIiwiYSI6ImNremlvMWpobDRhY3gybnA0MHVyZWg1M3AifQ.zb7Ds0VZBTGJKsNWhzdAyA', {
+                attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors'
+            }).addTo(map);
+
+        //map event normalize
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+        map.boxZoom.disable();
+        map.keyboard.disable();
+        map.removeControl(map.zoomControl);
+
+
+        //setting map marker
+        var blueMark = L.icon({
+            iconUrl: './img/marker.png',
+
+            iconSize: [25, 40]
+        });
+
+        //add marker
+        L.marker([30.778185551372193, 114.21206662002633], {
+            icon: blueMark
+        }).addTo(map);
+        L.marker([37.46401660655264, 126.44137393582726], {
+            icon: blueMark
+        }).addTo(map);
+        L.marker([37.47873020133543, 126.6684717192146], {
+            icon: blueMark
+        }).addTo(map);
+
+        //location setting
+        var home = L.marker([30.597826116640846, 114.30383824938]);
+        var airPort = L.marker([30.778185551372193, 114.21206662002633]);
+        var Incheon = L.marker([37.46401660655264, 126.44137393582726]);
+        var medical = L.marker([37.47873020133543, 126.6684717192146]);
+
+        //moving location function zip
+        function toAirport() {
+            map.flyTo(airPort.getLatLng(), 13);
+        };
+
+        function toIncheon() {
+            map.flyTo(Incheon.getLatLng(), 12);
+        };
+
+
+        function toMedical() {
+            map.flyTo(medical.getLatLng(), 15);
+        };
+
+        function toHome() {
+            map.flyTo(home.getLatLng(), 5);
+        }
+        //moving location function zip
+
+        //section offsettop setting 
+        var $section = $('.parallax > section');
+        var $sectionInfo = [];
+
+        $section.each(function () {
+            var $this = $(this);
+            $sectionInfo.push($this.offset().top);
+        });
+
+
+        //function start
+
+        $(function () {
+
+            //function scroll function start    
+            $(window).scroll(function () {
+                var sct = $(this).scrollTop();
+                //console.log($sectionInfo[1]);
+
+                if (sct > $sectionInfo[1] + 600 && sct < $sectionInfo[1] + 2200) {
+                    toAirport();
+
+
+                } else if (sct > $sectionInfo[1] + 2200 && sct < $sectionInfo[1] + 3600) {
+                    toIncheon();
+                } else if (sct > $sectionInfo[1] + 3600) {
+                    toMedical();
+                } else {
+                    toHome();
+                }
+            });
+
+        });
+
+        //gsap st
+    </script>
+
+    <!--scrolltrigger script-->
+    <script>
+        let t1 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".anima",
+                start: "center 100%",
+                end: "+=2000",
+                //  markers:true,
+                scrub: 0.5,
+            }
+        });
+
+        t1.to(".anima", {
+            top: -20 + "%",
+            duration: 20
+        }, 0);
+
+        let t2 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".animaTwo",
+                start: "top 100%",
+                end: "+=2000",
+                //markers:true,
+                scrub: 0.5,
+            }
+        });
+
+        t2.to(".animaTwo", {
+            top: -15 + "%",
+            duration: 20
+        }, 0);
+
+        let t3 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".animaThree",
+                start: "top 100%",
+                end: "+=2500",
+                // markers:true,
+                scrub: 0.5,
+            }
+        });
+
+        t3.to(".animaThree", {
+            top: -5 + "%",
+            duration: 20
+        }, 0);
+
+        let t4 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".animafour",
+                start: "top 100%",
+                end: "+=2500",
+                //  markers:true,
+                scrub: 0.5,
+            }
+        });
+
+        t4.to(".animafour", {
+            top: -5 + "%",
+            duration: 20
+        }, 0);
+
+        gsap.registerPlugin(ScrollTrigger);
+
+{
+  const process = document.querySelector('.process');
+  if ((typeof(process) != 'undefined' && process != null)) {
+    let sections = gsap.utils.toArray('.processItem');
+    gsap.to(sections, {
+      xPercent: -80 * (sections.length - 2),
+      ease: "none",
+      scrollTrigger: {
+        trigger: process,
+        markers: false,
+        scrub: 1,
+        pin: true,
+        snap: 1 / (sections.length - 1),
+        end: () => "+=" + document.querySelector(".process").offsetWidth
+      },
+    });
+  }
+}
+
+scrollTrigger.matchMedia({
+    "(min-width:490px)":function(){
+
+        gsap.registerPlugin(ScrollTrigger);
+
+{
+  const process = document.querySelector('.process');
+  if ((typeof(process) != 'undefined' && process != null)) {
+    let sections = gsap.utils.toArray('.processItem');
+    gsap.to(sections, {
+      xPercent: -80 * (sections.length - 2),
+      ease: "none",
+      scrollTrigger: {
+        trigger: process,
+        markers: false,
+        scrub: 1,
+        pin: true,
+        snap: 1 / (sections.length - 1),
+        end: () => "+=" + document.querySelector(".process").offsetWidth
+      },
+    });
+  }
+}
+    }
+})
+  
+    </script>
+
+    <!--chart js-->
+    <script>
+        var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['1월 9일', '10일', '11일', '12일', '13일',
+                    '14일', '15일', '16일', '17일', '18일',
+                    '19일', '20일', '21일', '22일', '23일',
+                    '24일', '25일', '26일', '27일', '28일',
+                    '29일', '30일', '31일', '2월 1일', '2일',
+                    '3일', '4일', '5일', '6일', '7일',
+                    '8일', '9일'
+                ],
+                datasets: [{
+                    label: '지난 한달간 국내 코로나 확진자 추이',
+                    data: [3370, 3005, 3094, 4383, 4162, 4538, 4419, 4189, 3856, 4070,
+                        5804, 6600, 6766, 7004, 7625, 7511, 8570, 13007, 14514, 16092, 17511,
+                        17526, 17077, 18338, 20268, 22906, 27438, 36345, 38688, 35281, 36717, 49550
+                    ],
+                    backgroundColor: 'transparent',
+                    borderColor: 'rgb(0, 128, 255)'
+                }],
+
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                plugins: {
+                    zoom: {
+                        // Container for pan options
+                        pan: {
+                            // Boolean to enable panning
+                            enabled: true,
+
+                            // Panning directions. Remove the appropriate direction to disable 
+                            // Eg. 'y' would only allow panning in the y direction
+                            mode: 'xy'
+                        },
+
+                        // Container for zoom options
+                        zoom: {
+                            // Boolean to enable zooming
+                            enabled: true,
+
+                            // Zooming directions. Remove the appropriate direction to disable 
+                            // Eg. 'y' would only allow zooming in the y direction
+                            mode: 'xy',
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!--svgmap js-->
+    <script>
+        new svgMap({
+            targetElementID: 'svgMap',
+            data: {
+                data: {
+                    person: {
+                        name: 'Corona',
+                        format: '{0} Per',
+                        thousandSeparator: ',',
+
+                    }
+
+                },
+                applyData: 'person',
+                values: {
+
+                    BR: {
+                        person: 838.42
+                    },
+                    KR: {
+                        person: 1054.90
+                    },
+                    IL: {
+                        person: 3224.09
+                    },
+                    ZA: {
+                        person: 93.73
+                    },
+                    US: {
+                        person: 562.60
+                    },
+                    CA: {
+                        person: 283.86
+                    },
+                    JP: {
+                        person: 775.87
+                    },
+                    GB: {
+                        person: 992.23
+                    },
+                    DE: {
+                        person: 3013.25
+                    },
+                    IN: {
+                        person: 48.14
+                    },
+                    RU: {
+                        person: 1245.89
+                    },
+
+
+                    // ...
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

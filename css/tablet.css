@@ -1,0 +1,1141 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html{
+        font-size: 13.5px;
+    }
+
+    .headBg{
+        width:100%;
+        background-color: rgba(40, 40, 40, 0.5);
+        height:4.7rem;
+        position:absolute;
+        top:0;
+        z-index: 3;
+    }
+    .headWrap{
+        width:90vw;
+        height:3.125rem;
+        margin: 0.78rem auto;
+    }
+    
+    .headWrap > .logo{
+        width:max-content;
+        padding-top: 0.66rem;
+    }
+    
+    .headWrap > .logo > .logoImg{
+        display: block;
+        width:13.75rem;
+        height:2.375rem;
+        background-image: url(../img/logo.png);
+       
+    }
+    
+    .headWrap > .iconBox{
+       display: flex;
+       justify-content: space-around;
+       width:9.375rem;
+    }
+    
+    .headWrap > .iconBox a{
+        display: block;
+        width:2.5rem;
+        height:2.5rem;
+     }
+    
+     .headWrap > .iconBox div{
+         margin-top: 0.34rem;
+     }
+    
+     .headWrap > .iconBox .shareImg{
+        background-image: url(../img/share.png);
+     }
+    
+     .headWrap > .iconBox .commentImg{
+        background-image: url(../img/comment.png);
+     }
+    
+     .parallax{
+         position: relative;
+         top:0;
+         left:0;
+         width:100%;
+         min-height: 750rem;
+       
+     }
+    
+     .parallax > .section1{
+         position: absolute;
+         top:0;
+         left:0;
+         width:100%;
+         
+     }
+    
+     .mainBg{
+        width:100%;
+        /*height:47rem;*/
+        height:48.5rem;
+        background-image: url(../img/main.jpg);
+        position: relative;
+        top:0;
+        left:0;
+        z-index: 1;
+    }
+    
+    .mainBg > .glitch{
+        width:36.125rem;
+        color:white;
+        text-align: center;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 2.8rem;
+    }
+    
+    .mainBg > .glitch  h3{
+        font-weight: 500;
+    }
+    
+    .mainBg > .glitch  h3 span{
+        font-weight: 900;
+    }
+    
+    .mainBg > .scroll{
+        position: absolute;
+        bottom: 4%;
+        left:50%;
+        transform: translateX(-50%);
+        transition: 0.5s ease;
+    }
+    
+    .scroll > .scImg{
+        width:1.56rem;
+        height:3.75rem;
+        background-image: url(../img/scroll.png);
+    }
+    
+    .scroll.active{
+        bottom:5%;
+        transition: 0.5s ease;
+    }
+    
+    .parallax > .section2{
+        position: relative;
+        width:100%;
+        height:188rem;
+        top:48.5rem;
+        left:0;
+        z-index: 2;
+    }
+    
+    .parallax > .section2 > #map{
+        height: 48.5rem; 
+        z-index: 2;
+      
+    }
+    
+    .parallax > .section2 > .dark{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 48.5rem;
+        z-index: 4;
+       background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .parallax > .section2 > .textBox{
+        position: absolute;
+        top:50rem;
+        left:50%;
+        transform: translateX(-50%);
+        z-index: 5;
+    }
+    
+    .txtBoxSize{
+        width:max-content;
+        height:max-content;
+        padding: 1.25rem 1.25rem;
+        box-sizing: border-box;
+        background-color: #101010;
+        color:white;
+        box-shadow: 5px 5px 10px rgba(50, 50, 50, 0.5);
+      
+    }
+    
+    .txtBoxSize > h3{
+        font-size: 0.9375rem;
+        font-weight: 400;
+    }
+    
+    .txtBoxSize > p{
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 1.25rem;
+    }
+    
+    .parallax > .section2 > .textBoxTwo{
+        position: absolute;
+        top:100rem;
+        left:10vw;
+        z-index: 5;
+    }
+    
+    .parallax > .section2 > .textBoxThree{
+        position: absolute;
+        top:160rem;
+        right:10vw;
+        z-index: 5;
+    }
+    
+    .parallax > .section2 > .textBoxfour{
+        position: absolute;
+        top:210rem;
+        left:50%;
+        transform: translateX(-50%);
+        z-index: 5;
+    }
+    
+    .parallax > .section3{
+        position: relative;
+        width:100%;
+        height:320rem;
+        top:210rem;
+        left:0;
+        z-index: 2;
+        background-color:white;
+       
+    
+    }
+    
+    
+    .parallax > .section3 .globalText{
+        width:max-content;
+        margin: 5rem auto;
+    }
+    
+    .globalText > .twoYears{
+       font-size: 2.2rem;
+       transition: 2s ease;
+       opacity: 1;
+       position: relative;
+       top:12rem;
+       opacity: 0;
+    }
+    
+    .globalText > .notYet{
+       position: relative;
+       font-size: 2.2rem;
+       transition: 2s ease;
+       opacity: 0;
+       top:44rem;
+    }
+    
+    .sectionThreeMain > .globalMap{
+       width:max-content;
+       margin: 0 auto;
+       position: relative;
+       top:47rem;
+    }
+    
+    
+    
+    .sectionThreeMain > .globalMap > .mapExBox{
+        color:#777;
+       
+        padding-top: 0.6rem;
+        font-size: 0.9375rem;
+    }
+    
+    
+    
+    .parallax > .section3 .sectionThreeMain .mainText{
+       line-height: 1.75rem;
+       width:max-content;
+       margin: 0 auto;
+       margin-top: 50rem;
+       font-size: 1.2rem;
+    
+    }
+    
+    .section4{
+        position: relative;
+        height:max-content;
+      
+    }
+    
+    .section4 > .chartEx{
+        margin-top: 24vh;
+        margin-left:16vw;
+    }
+    
+    .section4 > .chartEx > h3{
+        color:#777;
+        font-size: 0.9375rem;
+        width:max-content;
+       
+        text-align: left;
+    }
+    
+    .section4 > .newCorona{
+       margin-top: 5.5rem;
+    }
+    
+     .section4 > .newCorona > p{
+        line-height: 1.75rem;
+        width:max-content;
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+    
+    .section4 > .confirmedCase{
+        position: relative;
+        top:20rem;
+        transition: 2s ease;
+        opacity: 0;
+        display: none;
+    }
+    
+    .section4 > .confirmedCase > p{
+        font-size: 2.2rem;  
+    }
+
+    .section4 > .confirmedCaseTwo{
+        position: relative;
+        top:20rem;
+        transition: 2s ease;
+        opacity: 0;
+        visibility: visible;
+
+    }
+    
+    .section4 > .confirmedCaseTwo > p{
+        font-size: 2.2rem;  
+    }
+
+    
+    .section4 > .confirmedCaseThree{
+        opacity: 0;
+        visibility: hidden;
+    
+    }
+
+    .section5{
+        position: relative;
+        width:100%;
+        top:11%;
+        z-index: 3;
+        padding: 5rem 0;
+      
+    }
+    
+    .processWrap{
+        overflow: hidden;
+        width:100%;
+     }
+     
+     .process{
+         width:150%;
+         display: flex;
+         -ms-flex-wrap: nowrap;
+         flex-wrap: nowrap;
+         -ms-flex-item-align: center;
+         align-self: center;
+         height: max-content; 
+        
+       
+     }
+     
+     .process > .processItem{
+       
+         display: flex;
+         align-items: center;
+         position: relative;
+        height: max-content;
+        
+     }
+    
+     .prBg{
+         width:41.25rem;
+         height:23.875rem;
+         background-image: url(../img/preventBg.png);  
+         margin-bottom: 40%;
+     }
+    
+     .roadBox{
+        width:41.25rem;
+         z-index: 2;
+         position: absolute;
+         bottom: 2%;
+        
+     }
+    
+     .prRoad{
+         display: inline-block;
+         width:20.5rem;
+         height:8.75rem;
+         background-image: url(../img/road.png); 
+     }
+    
+     .prRoad:nth-child(2){
+         margin-left: -0.2rem;
+     }
+    
+     .processItem:nth-child(2) .prRoad{
+         margin-left: -0.25rem;
+     }
+    
+    
+     .House{
+        position: absolute;
+        width:39.125rem;
+        height:18.3125rem;
+        background-image: url(../img/house.png);
+        z-index: 3;
+        left:0;
+        top:30%;
+    
+    }
+    
+    .prTxt{
+        position: absolute;
+        top:1%;
+        left:13%;
+        z-index: 4;
+    }
+    
+    .prTxt > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+     .processItem:nth-child(3) .prRoad{
+         margin-left: -0.55rem;
+     }
+    
+    .bus{
+        width:25rem;
+        height:5.375rem;
+        background-image: url(../img/bus.png);
+        position: absolute;
+        bottom: 10%;
+        z-index: 4;
+    }
+    
+    .prTxt2{
+        position: absolute;
+        bottom:30%;
+        left:8%;
+        z-index: 4;
+    }
+    
+    .prTxt2 > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt2 > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    .school{
+        width:28.5rem;
+        height:20.874rem;
+        background-image: url(../img/school.png);
+        position: absolute;
+       top:30%;
+        z-index: 4;
+    }
+    
+    .prTxt3{
+        position: absolute;
+        top:1%;
+        left:7%;
+        z-index: 4;
+    }
+    
+    .prTxt3 > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt3 > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    .processItem:nth-child(4) .prRoad{
+        margin-left: -1.2rem;
+    }
+    
+    .processItem:nth-child(5) .prRoad{
+        margin-left: -2.4rem;
+    }
+    
+    .footerSpace{
+        padding: 25rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        position: relative;
+      }
+    
+      .footerSpace > .publish{
+        width:60vw;
+        line-height:10vh;
+        border-top:1px solid #999;
+        border-bottom: 1px solid #999;
+        position: absolute;
+        top:15%;
+        left:50%;
+        transform: translateX(-50%);
+      }
+    
+      .footerSpace > .publish > p{
+          text-align: center;
+      }
+    
+      .personInfo{
+          width:100%;
+          padding: 2rem 0;
+          background-color: #f9f9f9;
+          color:#777;
+          position: absolute;
+          top:40%;
+          border-top: 1px solid rgba(153, 153, 153, 0.2);
+          border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+      }
+    
+      .personInfo > .ulWrap{
+        width:max-content;
+        margin: 0 auto;
+      
+      }
+    
+      .personInfo ul{
+          
+          display: flex;
+          justify-content: space-around;
+         
+          padding:1.25rem 0;
+          
+      }
+    
+      .personInfo ul li{
+          text-align: left;
+      }
+    
+      .personInfo ul:nth-of-type(1){
+        width:20rem;
+    }
+    
+      .personInfo ul:nth-of-type(2){
+            width:12.5rem;
+      }
+    
+      .personInfo ul:nth-of-type(3){
+        width:12rem;
+    }
+    
+    .personInfo ul:nth-of-type(4){
+        width:19rem;
+    }
+    
+    .personInfo ul:nth-of-type(5){
+        width:27rem;
+    }
+    
+    .personInfo ul li:first-of-type{
+        font-weight: 700;
+        color:#333;
+    }
+    
+    .copyright{
+    
+        position: absolute;
+       bottom: 2%;
+    }
+    
+    .copyright p{
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    html{
+        font-size: 11.5px;
+    }
+
+    .headBg{
+        width:100%;
+        background-color: rgba(40, 40, 40, 0.5);
+        height:4.7rem;
+        position:absolute;
+        top:0;
+        z-index: 3;
+    }
+    .headWrap{
+        width:90vw;
+        height:3.125rem;
+        margin: 0.78rem auto;
+    }
+    
+    .headWrap > .logo{
+        width:max-content;
+        padding-top: 0.66rem;
+    }
+    
+    .headWrap > .logo > .logoImg{
+        display: block;
+        width:13.75rem;
+        height:2.375rem;
+        background-image: url(../img/logo.png);
+       
+    }
+    
+    .headWrap > .iconBox{
+       display: flex;
+       justify-content: space-around;
+       width:9.375rem;
+    }
+    
+    .headWrap > .iconBox a{
+        display: block;
+        width:2.5rem;
+        height:2.5rem;
+     }
+    
+     .headWrap > .iconBox div{
+         margin-top: 0.34rem;
+     }
+    
+     .headWrap > .iconBox .shareImg{
+        background-image: url(../img/share.png);
+     }
+    
+     .headWrap > .iconBox .commentImg{
+        background-image: url(../img/comment.png);
+     }
+    
+     .parallax{
+         position: relative;
+         top:0;
+         left:0;
+         width:100%;
+         min-height: 800rem;
+       
+     }
+    
+     .parallax > .section1{
+         position: absolute;
+         top:0;
+         left:0;
+         width:100%;
+         
+     }
+    
+     .mainBg{
+        width:100%;
+        /*height:47rem;*/
+        height:57rem;
+        background-image: url(../img/main.jpg);
+        position: relative;
+        top:0;
+        left:0;
+        z-index: 1;
+    }
+    
+    .mainBg > .glitch{
+        width:36.125rem;
+        color:white;
+        text-align: center;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 2.8rem;
+    }
+    
+    .mainBg > .glitch  h3{
+        font-weight: 500;
+    }
+    
+    .mainBg > .glitch  h3 span{
+        font-weight: 900;
+    }
+    
+    .mainBg > .scroll{
+        position: absolute;
+        bottom: 4%;
+        left:50%;
+        transform: translateX(-50%);
+        transition: 0.5s ease;
+    }
+    
+    .scroll > .scImg{
+        width:1.56rem;
+        height:3.75rem;
+        background-image: url(../img/scroll.png);
+    }
+    
+    .scroll.active{
+        bottom:5%;
+        transition: 0.5s ease;
+    }
+    
+    .parallax > .section2{
+        position: relative;
+        width:100%;
+        height:230rem;
+        top:57rem;
+        left:0;
+        z-index: 2;
+    }
+    
+    .parallax > .section2 > #map{
+        height: 57rem; 
+        z-index: 2;
+      
+    }
+    
+    .parallax > .section2 > .dark{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 57rem;
+        z-index: 4;
+       background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .parallax > .section2 > .textBox{
+        position: absolute;
+        top:55rem;
+        left:50%;
+        transform: translateX(-50%);
+        z-index: 5;
+    }
+    
+    .txtBoxSize{
+        width:max-content;
+        height:max-content;
+        padding: 1.4rem 1.4rem;
+        box-sizing: border-box;
+        background-color: #101010;
+        color:white;
+        box-shadow: 5px 5px 10px rgba(50, 50, 50, 0.5);
+      
+    }
+    
+    .txtBoxSize > h3{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .txtBoxSize > p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    
+    .parallax > .section2 > .textBoxTwo{
+        position: absolute;
+        top:115rem;
+        left:10vw;
+        z-index: 5;
+    }
+    
+    .parallax > .section2 > .textBoxThree{
+        position: absolute;
+        top:180rem;
+        right:10vw;
+        z-index: 5;
+    }
+    
+    .parallax > .section2 > .textBoxfour{
+        position: absolute;
+        top:270rem;
+        left:50%;
+        transform: translateX(-50%);
+        z-index: 5;
+    }
+    
+    .parallax > .section3{
+        position: relative;
+        width:100%;
+        height:320rem;
+        top:270rem;
+        left:0;
+        z-index: 2;
+        background-color:white;
+       
+    
+    }
+    
+    
+    .parallax > .section3 .globalText{
+        width:max-content;
+        margin: 5rem auto;
+    }
+    
+    .globalText > .twoYears{
+       font-size: 2.5rem;
+       transition: 2s ease;
+       opacity: 1;
+       position: relative;
+       top:12rem;
+       opacity: 0;
+    }
+    
+    .globalText > .notYet{
+       position: relative;
+       font-size: 2.5rem;
+       transition: 2s ease;
+       opacity: 0;
+       top:44rem;
+    }
+    
+    .sectionThreeMain > .globalMap{
+       width:max-content;
+       margin: 0 auto;
+       position: relative;
+       top:47rem;
+    }
+    
+    
+    
+    .sectionThreeMain > .globalMap > .mapExBox{
+        color:#777;
+       width:50rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    
+    
+    .parallax > .section3 .sectionThreeMain .mainText{
+       line-height: 1.75rem;
+       width:max-content;
+       margin: 0 auto;
+       margin-top: 52rem;
+       font-size: 1.35rem;
+    
+    }
+    
+    .section4{
+        position: relative;
+        height:max-content;
+      
+    }
+    
+    .section4 > .chartEx{
+        margin-top: 12vh;
+        margin-left:16vw;
+    }
+    
+    .section4 > .chartEx > h3{
+        color:#777;
+        font-size: 1.1rem;
+        width:max-content;
+       
+        text-align: left;
+    }
+    
+    .section4 > .newCorona{
+       margin-top: 5.5rem;
+    }
+    
+     .section4 > .newCorona > p{
+        line-height: 1.75rem;
+        width:max-content;
+        font-size: 1.35rem;
+        margin: 0 auto;
+    }
+    
+    .section4 > .confirmedCase{
+        position: relative;
+        top:20rem;
+        transition: 2s ease;
+        opacity: 0;
+        display: none;
+    }
+    
+    .section4 > .confirmedCase > p{
+        font-size: 2.4rem;  
+    }
+
+    .section4 > .confirmedCaseTwo{
+        position: relative;
+        top:20rem;
+        transition: 2s ease;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    
+    .section4 > .confirmedCaseTwo > p{
+        font-size: 2.4rem;  
+    }
+
+    
+    .section4 > .confirmedCaseThree{
+        position: relative;
+        top:20rem;
+        transition: 2s ease;
+        opacity: 0;
+        visibility: visible;
+    
+    }
+
+    .section4 > .confirmedCaseThree > p{
+        font-size: 2.4rem; 
+    }
+
+    .section5{
+        position: relative;
+        width:100%;
+        top:20%;
+        z-index: 3;
+        padding: 5rem 0;
+      
+    }
+    
+    .processWrap{
+        overflow: hidden;
+        width:100%;
+     }
+     
+     .process{
+         width:150%;
+         display: flex;
+         -ms-flex-wrap: nowrap;
+         flex-wrap: nowrap;
+         -ms-flex-item-align: center;
+         align-self: center;
+         height: max-content; 
+        
+       
+     }
+     
+     .process > .processItem{
+       padding-top: 10rem;
+         display: flex;
+         align-items: center;
+         position: relative;
+        height: max-content;
+        
+     }
+    
+     .prBg{
+         width:41.25rem;
+         height:23.875rem;
+         background-image: url(../img/preventBg.png);  
+         margin-bottom: 40%;
+     }
+    
+     .roadBox{
+        width:41.25rem;
+         z-index: 2;
+         position: absolute;
+         bottom: 2%;
+        
+     }
+    
+     .prRoad{
+         display: inline-block;
+         width:20.5rem;
+         height:8.75rem;
+         background-image: url(../img/road.png); 
+     }
+    
+     .prRoad:nth-child(2){
+         margin-left: -0.2rem;
+     }
+    
+     .processItem:nth-child(2) .prRoad{
+         margin-left: -0.25rem;
+     }
+    
+    
+     .House{
+        position: absolute;
+        width:39.125rem;
+        height:18.3125rem;
+        background-image: url(../img/house.png);
+        z-index: 3;
+        left:0;
+        top:30%;
+    
+    }
+    
+    .prTxt{
+        position: absolute;
+        top:1%;
+        left:13%;
+        z-index: 4;
+    }
+    
+    .prTxt > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+     .processItem:nth-child(3) .prRoad{
+         margin-left: -0.55rem;
+     }
+    
+    .bus{
+        width:25rem;
+        height:5.375rem;
+        background-image: url(../img/bus.png);
+        position: absolute;
+        bottom: 10%;
+        z-index: 4;
+    }
+    
+    .prTxt2{
+        position: absolute;
+        bottom:30%;
+        left:8%;
+        z-index: 4;
+    }
+    
+    .prTxt2 > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt2 > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    .school{
+        width:28.5rem;
+        height:20.874rem;
+        background-image: url(../img/school.png);
+        position: absolute;
+       top:30%;
+        z-index: 4;
+    }
+    
+    .prTxt3{
+        position: absolute;
+        top:1%;
+        left:7%;
+        z-index: 4;
+    }
+    
+    .prTxt3 > h3{
+        margin-bottom: 1.35rem;
+    }
+    
+    .prTxt3 > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    .processItem:nth-child(4) .prRoad{
+        margin-left: -1.2rem;
+    }
+    
+    .processItem:nth-child(5) .prRoad{
+        margin-left: -2.4rem;
+    }
+    
+    .footerSpace{
+        padding: 25rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        position: relative;
+      }
+    
+      .footerSpace > .publish{
+        width:60vw;
+        line-height:10vh;
+        border-top:1px solid #999;
+        border-bottom: 1px solid #999;
+        position: absolute;
+        top:15%;
+        left:50%;
+        transform: translateX(-50%);
+      }
+    
+      .footerSpace > .publish > p{
+          text-align: center;
+          font-size: 1.2rem;
+      }
+    
+      .personInfo{
+          width:100%;
+          padding: 2rem 0;
+          background-color: #f9f9f9;
+          color:#777;
+          position: absolute;
+          top:40%;
+          border-top: 1px solid rgba(153, 153, 153, 0.2);
+          border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+      }
+    
+      .personInfo > .ulWrap{
+        width:max-content;
+        margin: 0 auto;
+      
+      }
+    
+      .personInfo ul{
+          
+          display: flex;
+          justify-content: space-around;
+         
+          padding:1.25rem 0;
+          
+      }
+    
+      .personInfo ul li{
+          text-align: left;
+          font-size: 1.1rem;
+      }
+    
+      .personInfo ul:nth-of-type(1){
+        width:20rem;
+    }
+    
+      .personInfo ul:nth-of-type(2){
+            width:12.5rem;
+      }
+    
+      .personInfo ul:nth-of-type(3){
+        width:12rem;
+    }
+    
+    .personInfo ul:nth-of-type(4){
+        width:19rem;
+    }
+    
+    .personInfo ul:nth-of-type(5){
+        width:27rem;
+    }
+    
+    .personInfo ul li:first-of-type{
+        font-weight: 700;
+        color:#333;
+    }
+    
+    .copyright{
+    
+        position: absolute;
+       bottom: 2%;
+    }
+    
+    .copyright p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
